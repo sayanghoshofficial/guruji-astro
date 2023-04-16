@@ -1,6 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-around;
+    margin-top: 5px;
 }
 .navbarLogo{
     display: flex;
@@ -13,7 +14,7 @@
     border-radius: 50%;
 }
 .navbarLogo span{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 500;
 }
 .menu{
@@ -21,4 +22,16 @@
     justify-content: space-between;
     font-family: Poppins;
     width: 50%;
+}
+.menu p:hover{
+    color: #A74800;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user img{
+    width: 40px;
+    border-radius: 50%;
 }
