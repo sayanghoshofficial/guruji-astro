@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className={Style.navbar}>
       <div className={Style.navbarLogo}>
         <img
-          src="https://media.glassdoor.com/sqll/4755382/guruji-astro-squarelogo-1645176134551.png"
+          src="https://user-images.githubusercontent.com/99132893/232487978-470f10f8-1077-4fc2-b691-c9ed4859dd21.jpg"
           alt="web-logo"
         />
         <span>Guruji</span>

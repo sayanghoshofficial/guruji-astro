@@ -1,0 +1,28 @@
+.outSide{
+    margin: auto;
+    background-color: #ffefe3;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sun img{
+    width: 95px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading span{
+    padding: 5px;
+    font-family: sansation;
+    font-size: 32px;
+    color: #d97122;
+    font-weight: 700;
+}
+.heading img{
+    width: 27px;
+    height: 29px;
+}
