@@ -17,13 +17,13 @@ const Header = () => {
       </div>
       <div className={Style.headerFooter}>
         <div className={Style.iconBox}>
-          <i class="fa-solid fa-headset"></i> <p>24x7 Cutomer Support</p>
+          <i className="fa-solid fa-headset"></i> <p>24x7 Cutomer Support</p>
         </div>
         <div className={Style.iconBox}>
-          <i class="fa-solid fa-wallet"></i> <p>100% Refund if Unsatisfied</p>
+          <i className="fa-solid fa-wallet"></i> <p>100% Refund if Unsatisfied</p>
         </div>
         <div className={Style.iconBox}>
-          <i class="fa-solid fa-lock"></i> <p>Private & Confidential</p>
+          <i className="fa-solid fa-lock"></i> <p>Private & Confidential</p>
         </div>
         <div className={Style.iconBox}>
           <img

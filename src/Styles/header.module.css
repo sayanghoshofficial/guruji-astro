@@ -76,3 +76,11 @@
 .pageIndicator div:hover {
   background-color: #e07c2d;
 }
+@media only screen and (max-width: 500px){
+  .header p{
+    width: auto;
+  }
+  .header h1{
+    font-size: 40px;
+  }
+}
