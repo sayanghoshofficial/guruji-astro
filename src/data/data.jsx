@@ -5,7 +5,7 @@ export const slide = [
   "https://user-images.githubusercontent.com/99132893/232684276-4a123c45-ab73-44ea-b0a6-c0544ec0d8e2.jpeg",
   "https://user-images.githubusercontent.com/99132893/232684398-f4e575b2-c868-4b6b-8426-a439e5e009ad.jpeg",
   "https://user-images.githubusercontent.com/99132893/232684582-38eeac49-1494-4159-8398-fd3d080051a0.jpeg",
-  "https://user-images.githubusercontent.com/99132893/232684712-db121df6-3efd-4bcd-9f36-466808d1229b.jpeg",
+  "https://user-images.githubusercontent.com/99132893/232767951-fd816895-4263-4c00-9ce4-49bcd9e2d0db.jpeg",
   "https://user-images.githubusercontent.com/99132893/232684791-ee968e17-bd61-4658-83d8-eb9f0749bdb0.jpg",
   "https://user-images.githubusercontent.com/99132893/232684865-31f956f1-7339-47a8-b961-ae6df04d33e8.jpg"
 ];

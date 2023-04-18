@@ -1,0 +1,98 @@
+.chakra {
+  width: 95%;
+  margin: auto;
+  padding: 30px;
+}
+.fullChakraDiv {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.sideDiv {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.subDiv {
+  width: 170px;
+  height: 58px;
+  border-radius: 9px;
+  border: 2px solid #a95210;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.divIcon {
+  width: 50px;
+  height: 100%;
+  background-color: #a95210;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divIcon > img {
+  width: 30px;
+  height: 30px;
+}
+
+.divDetails {
+  width: 100px;
+  color: #939393;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftDivDetails {
+  width: 100px;
+  color: #939393;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chakraAnimation {
+  height: 500px;
+  height: 505px;
+  background-image: url("https://user-images.githubusercontent.com/99132893/232823140-cef51b2d-1730-4dcd-a106-9534b4ea82b8.png");
+  background-repeat: no-repeat;
+}
+.outerChakra {
+  position: relative;
+}
+.sun > img {
+    width: 100px;
+    position: relative;
+    top: 50%;
+    width: 100%;
+}
+.clockwiseSpin {
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: clockwiseSpin;
+  animation-timing-function: linear;
+}
+
+@keyframes clockwiseSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
