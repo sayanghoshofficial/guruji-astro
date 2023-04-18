@@ -1,0 +1,93 @@
+.cardBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.singleCard {
+  margin-bottom: 20px;
+  background-size: cover;
+  width: 386px;
+  height: 408px;
+  border-radius: 8px;
+}
+.downCompo {
+  display: flex;
+  background-color: #a95210;
+  width: 386px;
+  height: 52px;
+  position: relative;
+  top: 119px;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 20px;
+  color: white;
+}
+.chat {
+  width: 51%;
+  height: 100%;
+  border-right: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  padding: 10px;
+}
+.call {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liveBox{
+    width: 67px;
+    height: 67px;
+    position: relative;
+    top: 150px;
+    left: 160px;
+    background-color: #833800;
+    z-index: 2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    color: white;
+    box-shadow: 0px 2px 0px 0px;
+}
+.liveBox i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.liveLetter{
+    width: auto;
+    height: auto;
+    padding: 2px;
+    border-radius: 3px;
+    color: #a95210;
+    background-color: white;
+    font-size: 10px;
+    font-weight: 700;
+}
+.astroDetails{
+    width: 300px;
+    height: 170px;
+    top: 186px;
+    padding-left: 10px;
+    position: relative;
+    font-size: 16px;
+    color:white;
+}
+.astroDetails h3{
+    font-weight: 600;
+}
+.astroDetails h5{
+    font-size: 12px;
+}
+.astroDetails p{
+    color: #FFDBC0;
+}
+.astroDetails i{
+    color: #fdcc0d;
+}

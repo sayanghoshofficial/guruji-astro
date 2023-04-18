@@ -1,17 +1,18 @@
-import React from 'react'
-import { slide } from '../data/data'
+import React from "react";
+import { slide } from "../data/data";
+import AstroCard from "./AstroCard";
 
 const Astrologer = () => {
-    {console.log(slide)}
+ 
   return (
-    
-    <div className='w-auto'>
-        
-        {/* {slide.map((s,i)=>(
-            <img src={s} alt='astologer' key={i}/>
-        ))} */}
+    <div className="w-full ">
+      <AstroCard>
+        {slide.map((s, i) => (
+          <img src={s} alt="astologer" key={i} />
+        ))}
+      </AstroCard>
     </div>
-  )
-}
+  );
+};
 
-export default Astrologer
+export default Astrologer;
