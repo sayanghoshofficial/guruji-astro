@@ -17,13 +17,25 @@ const Header = () => {
       </div>
       <div className={Style.headerFooter}>
         <div className={Style.iconBox}>
-          <i className="fa-solid fa-headset"></i> <p>24x7 Cutomer Support</p>
+          <img
+            src="https://user-images.githubusercontent.com/99132893/232845278-39876f4c-e0dc-4a2c-a893-8f5a9135d9bd.png"
+            alt="support"
+          />{" "}
+          <p>24x7 Cutomer Support</p>
         </div>
         <div className={Style.iconBox}>
-          <i className="fa-solid fa-wallet"></i> <p>100% Refund if Unsatisfied</p>
+          <img
+            src="https://user-images.githubusercontent.com/99132893/232846080-fd5c7bee-8421-4e1e-beb9-10a0df569600.png"
+            alt="refund"
+          />
+          <p>100% Refund if Unsatisfied</p>
         </div>
         <div className={Style.iconBox}>
-          <i className="fa-solid fa-lock"></i> <p>Private & Confidential</p>
+          <img
+            src="https://user-images.githubusercontent.com/99132893/232846584-39cd7085-180a-4ddd-8fc0-eba2a4ab918f.png"
+            alt="secure"
+          />{" "}
+          <p>Private & Confidential</p>
         </div>
         <div className={Style.iconBox}>
           <img

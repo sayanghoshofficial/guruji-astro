@@ -40,7 +40,7 @@
   align-items: center;
 }
 .iconBox {
-  width: 105px;
+  width: 115px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -54,7 +54,8 @@
   width: 25px;
 }
 .iconBox > p {
-  font-size: 12px;
+  font-size: 10.5px;
+  text-align: start;
   padding: 2px;
 }
 
