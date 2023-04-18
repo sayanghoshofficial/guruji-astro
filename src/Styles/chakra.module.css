@@ -67,19 +67,15 @@
   justify-content: center;
 }
 .chakraAnimation {
-  height: 500px;
-  height: 505px;
   background-image: url("https://user-images.githubusercontent.com/99132893/232823140-cef51b2d-1730-4dcd-a106-9534b4ea82b8.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .outerChakra {
   position: relative;
 }
-.sun > img {
-    width: 100px;
-    position: relative;
-    top: 50%;
-    width: 100%;
+.outerChakra > img{
+    width: 450px !important;
 }
 .clockwiseSpin {
   animation-duration: 20s;
@@ -95,4 +91,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media only screen and (max-width: 890px){
+    .sideDiv {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 200px){
+    .divDetails{
+        font-size: 10px;
+    }
+    .leftDivDetails {
+        
+        font-size: 10px;
+    }
 }

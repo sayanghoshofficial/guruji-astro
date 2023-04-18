@@ -120,12 +120,6 @@ const Chackra = () => {
           </div>
         </div>
       </div>
-      {/* <div className={style.sun}>
-        <img
-          src="https://user-images.githubusercontent.com/99132893/232810754-80bea3d7-f3a2-4f97-9f03-3cdfceade4f9.png"
-          alt="sun"
-        />
-      </div> */}
     </div>
   );
 };

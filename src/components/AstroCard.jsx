@@ -6,9 +6,8 @@ const AstroCard = ({ children: slide }) => {
     <>
       <div className={style.cardBox}>
         {slide.map((s, i) => (
-          <>
+          <div key={i}>
             <div
-              key={i}
               className={style.singleCard}
               style={{ backgroundImage: `url(${s.props.src})` }}
             >
@@ -51,7 +50,7 @@ const AstroCard = ({ children: slide }) => {
                 </div>
               </div>
             </div>
-          </>
+          </div>
         ))}
       </div>
     </>

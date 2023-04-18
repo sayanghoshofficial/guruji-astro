@@ -6,7 +6,7 @@ const Astrologer = () => {
  
   return (
     <div className="w-full ">
-      <AstroCard>
+      <AstroCard >
         {slide.map((s, i) => (
           <img src={s} alt="astologer" key={i} />
         ))}

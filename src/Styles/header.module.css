@@ -10,18 +10,18 @@
   text-align: center;
   font-family: Sansation;
 }
-.header h1 {
+.header > h1 {
   font-weight: 700;
   font-size: 50px;
 }
-.header p {
+.header > p {
   font-size: 16px;
   font-weight: 400;
   font-family: Poppins;
   width: 390px;
   margin: auto;
 }
-.header button {
+.header > button {
   height: 35px;
   width: 150px;
   border-radius: 43px;
@@ -47,13 +47,13 @@
   align-items: center;
   /* background-color:#E07C2D; */
 }
-.iconBox i {
+.iconBox > i {
   font-size: 25px;
 }
-.iconBox img {
+.iconBox > img {
   width: 25px;
 }
-.iconBox p {
+.iconBox > p {
   font-size: 12px;
   padding: 2px;
 }
@@ -77,10 +77,10 @@
   background-color: #e07c2d;
 }
 @media only screen and (max-width: 500px){
-  .header p{
+  .header > p{
     width: auto;
   }
-  .header h1{
+  .header > h1{
     font-size: 40px;
   }
 }

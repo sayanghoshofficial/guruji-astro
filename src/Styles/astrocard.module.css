@@ -58,7 +58,7 @@ i {
   color: white;
   box-shadow: 0px 2px 0px 0px;
 }
-.liveBox i {
+.liveBox > i {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,21 +77,22 @@ i {
   width: 300px;
   height: 170px;
   top: 70px;
+  text-align: start;
   padding-left: 10px;
   position: relative;
   font-size: 16px;
   color: white;
 }
-.astroDetails h3 {
+.astroDetails > h3 {
   font-weight: 600;
 }
-.astroDetails h5 {
+.astroDetails > h5 {
   font-size: 12px;
 }
-.astroDetails p {
+.astroDetails > p {
   color: #ffdbc0;
 }
-.astroDetails i {
+.astroDetails > i {
   color: #fdcc0d;
 }
 .priceBox {
@@ -107,14 +108,14 @@ i {
   justify-content: center;
   align-items: center;
 }
-.priceBox p{
+.priceBox > p{
   font-size: 14px;
   
 }
-.priceBox span{
+.priceBox > span{
   font-size: 17px;
 }
-.priceBox i{
+.priceBox > i{
   font-size: 30px;
 }
 .expAndOnlineIndicator {
@@ -127,7 +128,7 @@ i {
   justify-content: space-between;
   align-items: center;
 }
-.expAndOnlineIndicator span{
+.expAndOnlineIndicator > span{
   font-size: 18px;
   font-weight: 600;
 }
