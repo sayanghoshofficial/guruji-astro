@@ -7,7 +7,7 @@ export const slide = [
   "https://user-images.githubusercontent.com/99132893/232684582-38eeac49-1494-4159-8398-fd3d080051a0.jpeg",
   "https://user-images.githubusercontent.com/99132893/232767951-fd816895-4263-4c00-9ce4-49bcd9e2d0db.jpeg",
   "https://user-images.githubusercontent.com/99132893/232684791-ee968e17-bd61-4658-83d8-eb9f0749bdb0.jpg",
-  "https://user-images.githubusercontent.com/99132893/232684865-31f956f1-7339-47a8-b961-ae6df04d33e8.jpg"
+  "https://user-images.githubusercontent.com/99132893/232684865-31f956f1-7339-47a8-b961-ae6df04d33e8.jpg",
 ];
 export const videoSlide = [
   "https://assets.mixkit.co/videos/preview/mixkit-little-girl-eating-easter-egg-chocolate-in-the-garden-48603-large.mp4",
@@ -16,4 +16,56 @@ export const videoSlide = [
   "https://assets.mixkit.co/videos/preview/mixkit-little-girl-in-nature-with-a-marshmallow-on-a-twig-39766-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-excited-girl-with-a-stuffed-santa-claus-39747-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-father-and-daughter-sitting-on-the-floor-at-christmas-39753-large.mp4",
+];
+
+export const reviews = [
+  {
+    id:1,
+    name: "Harsh Patel",
+    image: "https://user-images.githubusercontent.com/99132893/233112637-5d98a14f-5d23-4ea2-91d3-d6a66d5e3358.jpeg",
+    review:
+      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+  },
+  {
+    id:2,
+    name: "Isla Murphy",
+    image: "https://user-images.githubusercontent.com/99132893/233113431-3b63421f-0475-4f5c-8430-c17dae508dfe.jpeg",
+    review:
+      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+  },
+  {
+    id:3,
+    name: "Jake Smith",
+    image: "https://user-images.githubusercontent.com/99132893/233114392-77ccaf59-aad9-4740-b4f1-9af1f6154155.jpeg",
+    review:
+      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+  },
+  {
+    id:4,
+    name: "Michael Wilson",
+    image: "https://user-images.githubusercontent.com/99132893/233114711-f2a94a7e-8d0c-43af-a6bf-ca08cc6f49b0.jpeg",
+    review:
+      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+  },
+  {
+    id:5,
+    name: "Poppy Brown",
+    image: "https://user-images.githubusercontent.com/99132893/233115066-49167937-6b1f-4ae6-95d4-94068a3ed805.jpeg",
+    review:
+      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+  },
+  {
+    id:6,
+    name: "Ava Byrne",
+    image: "https://user-images.githubusercontent.com/99132893/233115216-81d7454a-503e-4831-bdd2-febbdedf51df.jpeg",
+    review:
+      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+  },
+  {
+    id:7,
+    name: "Jacob White",
+    image: "https://user-images.githubusercontent.com/99132893/233116823-3299d1f1-4b7b-44d0-b695-1179be174e50.jpeg",
+    review:
+      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+  },
 ];

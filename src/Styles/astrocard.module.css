@@ -149,3 +149,6 @@ i {
   border-radius: 50%;
   background-color: #2cdc00;
 }
+.rating > i{
+  color: #f7c80e;
+}

@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className={Style.navbar}>
       <div className={Style.menuIcon}>
-        <i class="fa-solid fa-bars"></i>
+        <i className="fa-solid fa-bars"></i>
       </div>
       <div className={Style.navbarLogo}>
         <img
