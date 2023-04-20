@@ -37,7 +37,7 @@
 .contain{
     border: 2px solid #ac652f;
     width: 90%;
-    height: 100px;
+    height: auto;
     font-size: 20px;
     font-weight: 400;
     color: #ac652f;
@@ -46,6 +46,7 @@
     width: 90%;
     height: 100px;
     display: flex;
+    justify-content: space-between;
     
 }
 .inActiveReview{
@@ -54,22 +55,30 @@
     margin-top: 60px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid red;
+    border: 2px solid #ffb782;
 }
 .inActiveReview > img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
     opacity: 0.7;
 }
+
 .activeReview{
     width: 200px;
     height: 200px;
     margin-top: 10px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid green;
+    border: 2px solid #ac652f;
 }
-.inActiveReview > img {
-    width: 200px;
-    height: 200px;
+.activeReview > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    width: 100px;
+    color: #ac652f;
+    font-size: 15px;
 }

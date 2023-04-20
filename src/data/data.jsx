@@ -21,50 +21,57 @@ export const videoSlide = [
 export const reviews = [
   {
     id:1,
+    rating:4,
     name: "Harsh Patel",
-    image: "https://user-images.githubusercontent.com/99132893/233112637-5d98a14f-5d23-4ea2-91d3-d6a66d5e3358.jpeg",
+    image: "https://user-images.githubusercontent.com/99132893/233252738-4cd1e57a-6bb6-4c92-a313-e13abc62d816.jpeg",
     review:
       "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
   },
   {
     id:2,
+    rating:5,
     name: "Isla Murphy",
     image: "https://user-images.githubusercontent.com/99132893/233113431-3b63421f-0475-4f5c-8430-c17dae508dfe.jpeg",
     review:
-      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     id:3,
+    rating:3,
     name: "Jake Smith",
     image: "https://user-images.githubusercontent.com/99132893/233114392-77ccaf59-aad9-4740-b4f1-9af1f6154155.jpeg",
     review:
-      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, ",
   },
   {
     id:4,
+    rating:2,
     name: "Michael Wilson",
     image: "https://user-images.githubusercontent.com/99132893/233114711-f2a94a7e-8d0c-43af-a6bf-ca08cc6f49b0.jpeg",
     review:
-      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
   },
   {
     id:5,
+    rating:5,
     name: "Poppy Brown",
     image: "https://user-images.githubusercontent.com/99132893/233115066-49167937-6b1f-4ae6-95d4-94068a3ed805.jpeg",
     review:
-      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
   },
   {
     id:6,
+    rating:4,
     name: "Ava Byrne",
     image: "https://user-images.githubusercontent.com/99132893/233115216-81d7454a-503e-4831-bdd2-febbdedf51df.jpeg",
     review:
-      "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
+      "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary",
   },
   {
     id:7,
+    rating:4,
     name: "Jacob White",
-    image: "https://user-images.githubusercontent.com/99132893/233116823-3299d1f1-4b7b-44d0-b695-1179be174e50.jpeg",
+    image: "https://user-images.githubusercontent.com/99132893/233252958-ba77562d-deb5-4ddc-8476-11af9ca159ea.jpg",
     review:
       "Explore the Mysteries of the Universe with Our Expert Astrology Services Explore the Mysteries of the Universe with Our Expert Astrology ServicesExplore the Mysteries of the Universe with ",
   },

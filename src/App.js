@@ -12,6 +12,10 @@ function App() {
       />
       <Chackra />
       <UserReview />
+      <img
+        alt="down-elem"
+        src="https://user-images.githubusercontent.com/99132893/233254741-aec43ffb-0cff-49f1-a426-db62aa55d87f.jpg"
+      />
     </div>
   );
 }
