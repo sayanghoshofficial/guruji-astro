@@ -24,7 +24,7 @@ code {
   margin: auto;
   background-color: transparent;
   /* height: 500px; */
-  color: white;
+  /* color: white; */
   border-radius: 10px;
 }
 
@@ -71,7 +71,4 @@ code {
   display: none;
 }
 
-.active {
-  /* background-color: #04AA6D; */
-  color: white;
-}
+
