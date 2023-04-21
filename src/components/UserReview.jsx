@@ -4,6 +4,7 @@ import style from '../Styles/userReview.module.css';
 import { reviews } from '../data/data';
 import Review from './Review';
 
+
 const UserReview = () => {
   return (
     <div className={style.userReviewOuterDiv}>
@@ -19,10 +20,10 @@ const UserReview = () => {
         />
       </div>
       <div className={style.reviewBox}>
+        
         <Review>
             {reviews.map((r,i)=>(r))}
         </Review>
-
       </div>
       
     </div>

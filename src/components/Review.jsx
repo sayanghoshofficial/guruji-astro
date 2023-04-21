@@ -1,11 +1,25 @@
 import React, { useState } from "react";
 import style from "../Styles/userReview.module.css";
 import "../Styles/review.css";
+import { ChevronLeft, ChevronRight } from "react-feather";
 
 const Review = ({ children: reviews }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
+  const handleNext = () => {
+    setActiveIndex((prevIndex) => (prevIndex === reviews.length - 1 ? 0 : prevIndex + 1));
+  };
+
+  const handlePrev = () => {
+    setActiveIndex((prevIndex) => (prevIndex === 0 ? reviews.length - 1 : prevIndex - 1));
+  };
 
   return (
+    <>
+    <div className={style.chevron}>
+      <div className={style.ChevronSide} onClick={handlePrev}><ChevronLeft/></div>
+      <div className={style.ChevronSide} onClick={handleNext}><ChevronRight/></div>
+      
+    </div>
     <div className={style.carouselContainer}>
       <div className={style.rating}>
         <img
@@ -50,7 +64,7 @@ const Review = ({ children: reviews }) => {
         />
       </div>
       <div className={style.contain}>{reviews[activeIndex].review}</div>
-      <div className={style.name}>~{reviews[activeIndex].name}</div>
+      <div className={style.name}><b>~{reviews[activeIndex].name}</b></div>
       <div className={style.userImageList}>
         {reviews.map((review, index) => (
           <div
@@ -65,6 +79,7 @@ const Review = ({ children: reviews }) => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
