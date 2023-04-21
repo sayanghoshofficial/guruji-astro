@@ -1,11 +1,13 @@
 import React from "react";
 import Style from "../Styles/navbar.module.css";
+import MenuBarForMobile from "./MenuBarForMObile";
 
 const Navbar = () => {
   return (
     <div className={Style.navbar}>
       <div className={Style.menuIcon}>
-        <i className="fa-solid fa-bars"></i>
+        {/* <i className="fa-solid fa-bars"></i> */}
+        <MenuBarForMobile />
       </div>
       <div className={Style.navbarLogo}>
         <img
