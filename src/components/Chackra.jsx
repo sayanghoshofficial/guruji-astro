@@ -10,7 +10,7 @@ const Chackra = () => {
           src="https://user-images.githubusercontent.com/99132893/232488929-b1d3abc9-f299-4e1a-a6fa-689bce962175.png"
           alt="star"
         />
-        <span>Premium Astrologers</span>
+        <span>Many Problem one Solution</span>
         <img
           src="https://user-images.githubusercontent.com/99132893/232488929-b1d3abc9-f299-4e1a-a6fa-689bce962175.png"
           alt="star"
