@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import style from "../Styles/userReview.module.css";
-import "../Styles/review.css";
 import { ChevronLeft, ChevronRight } from "react-feather";
 
 const Review = ({ children: reviews }) => {

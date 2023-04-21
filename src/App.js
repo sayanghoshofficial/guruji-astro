@@ -1,5 +1,5 @@
 import React from "react";
-import { Chackra, Header, Testimonial, UserReview } from "./components";
+import { Chackra, Footer, Header, Testimonial, UserReview } from "./components";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         alt="down-elem"
         src="https://user-images.githubusercontent.com/99132893/233254741-aec43ffb-0cff-49f1-a426-db62aa55d87f.jpg"
       />
+      <Footer/>
     </div>
   );
 }
