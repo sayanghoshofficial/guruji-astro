@@ -1,8 +1,17 @@
 import React from "react";
 import style from "../Styles/footer.module.css";
 import Style from "../Styles/navbar.module.css";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Footer = () => {
+  const handledOnClick = (e)=>{
+    e.preventDefault();
+    toast.success("Your Query Submited Successfully...",{
+      position:"top-left",
+      theme:"colored"
+    })
+  }
   return (
     <div className={style.footerFullDiv}>
       <div className={style.aboutDiv}>
@@ -108,10 +117,10 @@ const Footer = () => {
       </div>
       <div className={style.form}>
         <form>
-          <input type="text" placeholder="Your Name"/>
-          <input type="email" placeholder="Mail ID"/>
-          <textarea placeholder="Write Query" cols={4}/>
-          <button type="submit">Submit</button>
+          <input type="text" placeholder="Your Name" required/>
+          <input type="email" placeholder="Mail ID" required/>
+          <textarea placeholder="Write Query" cols={4} required/>
+          <button type="submit" onClick={handledOnClick}>Submit</button>
         </form>
       </div>
     </div>
