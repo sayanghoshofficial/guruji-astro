@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/guruji-astro/static/css/main.a2aaa2ba.css",
-    "main.js": "/guruji-astro/static/js/main.f17f9593.js",
+    "main.css": "/guruji-astro/static/css/main.24c8e5fb.css",
+    "main.js": "/guruji-astro/static/js/main.88606c0a.js",
     "index.html": "/guruji-astro/index.html",
-    "main.a2aaa2ba.css.map": "/guruji-astro/static/css/main.a2aaa2ba.css.map",
-    "main.f17f9593.js.map": "/guruji-astro/static/js/main.f17f9593.js.map"
+    "main.24c8e5fb.css.map": "/guruji-astro/static/css/main.24c8e5fb.css.map",
+    "main.88606c0a.js.map": "/guruji-astro/static/js/main.88606c0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2aaa2ba.css",
-    "static/js/main.f17f9593.js"
+    "static/css/main.24c8e5fb.css",
+    "static/js/main.88606c0a.js"
   ]
 }
