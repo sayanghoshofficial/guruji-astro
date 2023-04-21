@@ -25,7 +25,8 @@
   width: 170px;
   height: 58px;
   border-radius: 9px;
-  margin-bottom: 5px;
+  margin-bottom: 2.5px;
+  margin-top: 2.5px;
   border: 2px solid #a95210;
   overflow: hidden;
   display: flex;
