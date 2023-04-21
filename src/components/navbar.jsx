@@ -13,7 +13,7 @@ const Navbar = () => {
         <img
           src="https://user-images.githubusercontent.com/99132893/232487978-470f10f8-1077-4fc2-b691-c9ed4859dd21.jpg"
           alt="web-logo"
-        />
+        />&nbsp;
         <span>Guruji</span>
       </div>
       <div className={Style.menu}>
