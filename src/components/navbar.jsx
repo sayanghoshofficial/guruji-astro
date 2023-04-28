@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className={Style.menu}>
         <p>Home</p>
         <p>Call with Astrologer</p>
-        <p>live(Comming Soon)</p>
+        <p>Live(Comming Soon)</p>
       </div>
       <div className={Style.user}>
         <img
