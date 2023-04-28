@@ -116,11 +116,11 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.form}>
-        <form>
+        <form onSubmit={handledOnClick}>
           <input type="text" placeholder="Your Name" required/>
           <input type="email" placeholder="Mail ID" required/>
           <textarea placeholder="Write Query" cols={4} required/>
-          <button type="submit" onClick={handledOnClick}>Submit</button>
+          <button type="submit" >Submit</button>
         </form>
       </div>
     </div>
