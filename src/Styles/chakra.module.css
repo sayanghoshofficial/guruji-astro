@@ -1,0 +1,115 @@
+.chakra {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+}
+.fullChakraDiv {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.sideDiv {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  margin-top: 2px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.subDiv {
+  width: 170px;
+  height: 58px;
+  border-radius: 9px;
+  margin-bottom: 2.5px;
+  margin-top: 2.5px;
+  border: 2px solid #a95210;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.divIcon {
+  width: 50px;
+  height: 100%;
+  background-color: #a95210;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divIcon > img {
+  width: 30px;
+  height: 30px;
+}
+
+.divDetails {
+  width: 100px;
+  color: #939393;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftDivDetails {
+  width: 100px;
+  color: #939393;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chakraAnimation {
+  background-image: url("https://user-images.githubusercontent.com/99132893/232823140-cef51b2d-1730-4dcd-a106-9534b4ea82b8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.outerChakra {
+  position: relative;
+}
+.outerChakra > img{
+    width: 450px !important;
+}
+.clockwiseSpin {
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: clockwiseSpin;
+  animation-timing-function: linear;
+}
+
+@keyframes clockwiseSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 890px){
+    .sideDiv {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 200px){
+    .divDetails{
+        font-size: 10px;
+    }
+    .leftDivDetails {
+        
+        font-size: 10px;
+    }
+}

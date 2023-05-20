@@ -1,0 +1,88 @@
+.mainHeader {
+  padding: 7px;
+  /* background-image: url("https://s3-alpha-sig.figma.com/img/c0f3/44e3/07d99f1ce072c49f6efb3f7b988be1a1?Expires=1682294400&Signature=OVirpJt-4C9Yc-t4sfYTD1iBMhFIV1XsdPu7CpchZxVd6H~mD39Njd0FmGVg6Par7sO-dqMkByRqvXh~MC2wGAd6rwhKh0d32fh52APV1XweJAuK3P9fdVd7~WzAF~2i1PtiG-fsEVtk6MnVfPiTB~FdFIcPHM6aujdArtWgKV0F6LqAXMjFqgWOMDS52Frpg53uD4rh0KQbx~5IBF0OGySvyjJT9fIMoj2COrCB09P3R5xK1bfW86VcBNTwTLzaW4dF5cvNKmXztDGO0SOWjB3ZRVwzAtH~EddICMd713R3~eFkauo8tzIyPcsBiAc-KGYYaLP4BPbdruzzfMp3tg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"); */
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
+}
+.header {
+  text-align: center;
+  font-family: Sansation;
+}
+.header > h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.header > p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins;
+  width: 390px;
+  margin: auto;
+}
+.header > button {
+  height: 35px;
+  width: 150px;
+  border-radius: 43px;
+  background-color: #d97122;
+  border: none;
+  color: white;
+}
+.headerFooter {
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.iconBox {
+  width: 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color:#E07C2D; */
+}
+.iconBox > i {
+  font-size: 25px;
+}
+.iconBox > img {
+  width: 25px;
+}
+.iconBox > p {
+  font-size: 10.5px;
+  text-align: start;
+  padding: 2px;
+}
+
+.pageIndicator {
+  margin: auto;
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+}
+.div1 {
+  background-color: #e07c2d;
+}
+.pageIndicator div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #e07c2d;
+}
+.pageIndicator div:hover {
+  background-color: #e07c2d;
+}
+@media only screen and (max-width: 500px){
+  .header > p{
+    width: auto;
+  }
+  .header > h1{
+    font-size: 40px;
+  }
+}

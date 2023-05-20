@@ -1,19 +1,23 @@
 .navbar{
     display: flex;
     justify-content: space-around;
+    margin-top: 5px;
+}
+.menuIcon{
+    display: none;
 }
 .navbarLogo{
     display: flex;
     
     align-items: center;
 }
-.navbarLogo img{
+.navbarLogo > img{
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
-.navbarLogo span{
-    font-size: 40px;
+.navbarLogo > span{
+    font-size: 25px;
     font-weight: 500;
 }
 .menu{
@@ -21,4 +25,26 @@
     justify-content: space-between;
     font-family: Poppins;
     width: 50%;
+}
+.menu > p:hover{
+    color: #A74800;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user > img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 890px){
+    .menu{
+        display: none;
+    }
+    .menuIcon{
+        display: inline;
+        font-size: 50px;
+    }
 }
